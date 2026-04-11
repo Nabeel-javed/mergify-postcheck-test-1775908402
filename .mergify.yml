@@ -1,8 +1,2 @@
-pull_request_rules:
-  - name: "custom check"
-    conditions:
-      - base=main
-    actions:
-      post_check:
-        title: "{{title}}"
-        summary: "PR from {{author}} on branch {{head}}"
+# post_check rule 'custom check' was removed without replacement (no success_conditions or neutral_conditions to migrate)
+{}
